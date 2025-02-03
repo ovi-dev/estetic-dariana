@@ -48,7 +48,7 @@ const DualCardComponent = () => {
             <Image
             width={100}
             height={100}
-              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
+              src="/fotospng/DAV_8834-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -65,7 +65,7 @@ const DualCardComponent = () => {
             <Image
             width={100}
             height={100}
-              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
+              src="/fotospng/DAV_8847-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -82,7 +82,7 @@ const DualCardComponent = () => {
             <Image
             width={100}
             height={100}
-              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
+              src="/fotospng/DAV_8875-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -99,7 +99,7 @@ const DualCardComponent = () => {
             <Image
             width={100}
             height={100}
-              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
+              src="/fotospng/DAV_8884-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -116,7 +116,7 @@ const DualCardComponent = () => {
             <Image
             width={100}
             height={100}
-              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
+              src="/fotospng/DAV_8898-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -133,7 +133,7 @@ const DualCardComponent = () => {
             <Image
             width={100}
             height={100}
-              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
+              src="/fotospng/DAV_9016-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -150,7 +150,7 @@ const DualCardComponent = () => {
             <Image
             width={100}
             height={100}
-              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
+              src="/fotospng/DAV_9137-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
