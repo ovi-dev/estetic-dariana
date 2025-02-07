@@ -59,7 +59,7 @@ const Navbar = () => {
               </button>
 
               {isSubMenuOpen && (
-                <div className="absolute left-0 mt-1 w-40 shadow-lg rounded-md">
+                <div className="absolute left-0 mt-1 w-40 shadow-lg rounded-md bg-slate-200">
                   <Link href="/tratamientos/faciales" className={`${linkClasses("/tratamientos/faciales")} block px-4 py-2`}>Facial</Link>
                   <Link href="/tratamientos/corporales" className={`${linkClasses("/tratamientos/corporales")} block px-4 py-2`}>Corporal</Link>
                 </div>

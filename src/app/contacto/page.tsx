@@ -140,7 +140,7 @@ const Contacto = () => {
             </div>
             <button
               type="submit"
-              className="uppercase text-sm bg-hovernav m-2 p-2 rounded-md transition-all hover:bg-green-400"
+              className="uppercase text-sm bg-hovernav m-2 p-2 rounded-md transition-all hover:bg-green-400 w-full"
             >
               Enviar
             </button>
