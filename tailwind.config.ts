@@ -34,7 +34,7 @@ export default {
 
     },
     backgroundImage: {
-      site: "url('/fondo.png')"
+      site: "url('/fondo.jpg')"
       // about: "url('./assets/about.png')",
       // services: "url('/img/services.png')",
     

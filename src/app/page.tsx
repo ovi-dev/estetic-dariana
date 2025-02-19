@@ -12,19 +12,22 @@ export default function Home() {
   
   return (
   <>
-    <section className='container mx-auto space-x-0 mb-8 pt-20'>
+  
+
+    
+    <section className='container mx-auto  mb-8 pt-20'>
     <div className="flex flex-wrap items-center justify-between p-[10px]">
       {/* Texto alineado a la izquierda */}
-      <motion.div 
-      variants={fadeIn2('left', 1.4)}
-      initial='hidden'
-      whileInView={'show'}
-      viewport={{once: false, amount: 0.3}}
+      <div 
+      // variants={fadeIn2('left', 1.4)}
+      // initial='hidden'
+      // whileInView={'show'}
+      // viewport={{once: false, amount: 0.3}}
       className="w-full md:w-1/2">
-      <h1 className="text-2xl font-bold mb-4 text-center">Dariana Ortiz</h1>
+      <h1 className="text-2xl font-bold mb-4 text-center text-white/95">Dariana Ortiz</h1>
 
       <div className="p-6  rounded-lg shadow-lg  border ">
-        <p className="text-lg leading-relaxed">
+        <p className="text-lg leading-relaxed text-white">
           Siempre he tenido la determinación de luchar por lo que me apasiona,
           es más que un trabajo es mi pasión.
           <br />
@@ -34,14 +37,14 @@ export default function Home() {
           mi enfoque se basa en resultados naturales que potencian y realzan la belleza.
         </p>
       </div>
-      </motion.div>
+      </div>
 
       {/* Imagen alineada a la derecha */}
-      <motion.div 
-      variants={fadeIn2('right', 0.5)}
-      initial='hidden'
-      whileInView={'show'}
-      viewport={{once: false, amount: 0.3}}
+      <div 
+      // variants={fadeIn2('right', 0.5)}
+      // initial='hidden'
+      // whileInView={'show'}
+      // viewport={{once: false, amount: 0.3}}
       className="w-full md:w-1/2 flex justify-center md:justify-center mt-3 md:mt-2">
       <Image
         src="/fotospng/dariana.jpg"
@@ -50,17 +53,18 @@ export default function Home() {
         alt="Dariana Ortiz"
         className="rounded-[90px] shadow-2xl"
       />
-      </motion.div>
+      </div>
     </div>
     </section>
 
-    <section className='container mx-auto space-x-0 mb-8'>
-      <div>
+    <section className='container mx-auto space-x-0 mb-8 pt-20'>
+      <div className="flex flex-wrap items-center justify-between p-[10px]">
     <h1 className="text-2xl font-bold mb-4 text-center">Nuestro Trabajo</h1>
     <DualCardComponent/>
 
       </div>
     </section>
+    
   </>
   );
 }

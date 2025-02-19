@@ -28,7 +28,7 @@ const Navbar = () => {
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-slate-200 fixed w-full z-50">
+    <nav className=" fixed top-0 left-0 w-full  bg-white/90 flex-1 justify-between   ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-[90px] items-center">
           {/* Logo */}
@@ -46,7 +46,7 @@ const Navbar = () => {
 
           {/* pantalla grande Menu */}
             <div className="hidden md:flex space-x-6">
-            <Link href="/" className={linkClasses("/")} >Inicio</Link>
+            <Link href="/" className={`${linkClasses("/")}text-black`} >Inicio</Link>
             <Link href="/about" className={linkClasses("/about")}>Dariana Ortiz</Link>
             <div className="relative">
 
@@ -65,8 +65,8 @@ const Navbar = () => {
                 </div>
               )}
             </div>
-            <Link href="/contacto" className={`m-2 p-2 rounded-md transition-all hover:bg-hover ${pathname === "CONTACTO" ? "bg-hover text-black" : "hover:bg-hovernav"}`}>Contacto</Link>
-            <Link href="/pedircita" className={linkClasses("/pedircita")}>Citas</Link>
+            <Link href="/contacto" className={`m-2 p-2 rounded-md transition-all hover:bg-hover ${pathname === "CONTACTO" ? "bg-hover " : "hover:bg-hovernav"}`}>Contacto</Link>
+            <Link href="/pedircita" className={`${linkClasses("/pedircita")} text-black`}>Citas</Link>
           </div>
 
 

@@ -32,14 +32,20 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${roboto.className} ${inter.className} bg-slate-200 bg-no-repeat bg-cover overflow-auto`}
+        className={`${roboto.className} ${inter.className} bg-site bg-no-repeat bg-cover `}
       >
-    
+        <main className=" mx-auto">
 
         <Menu2/>
 
         {children}
         <Footer/>
+
+        </main>
+   
+
+    
+
         
 
       </body>
