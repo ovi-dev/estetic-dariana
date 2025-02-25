@@ -1,8 +1,10 @@
+
 import type { Metadata } from "next";
 import "./globals.css";
 import { inter, roboto } from "@/fonts/fonts";
 import Footer from "@/components/ui/footer/Footer";
 import Menu2 from "@/components/ui/menu/Menu2";
+import Menu from "@/components/ui/menu/Menu";
 
 
 
@@ -32,10 +34,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${roboto.className} ${inter.className} bg-site bg-no-repeat bg-cover `}
+        className={`${roboto.className} ${inter.className} bg-site bg-no-repeat bg-cover  `}
       >
         <main className=" mx-auto">
 
+        
         <Menu2/>
 
         {children}

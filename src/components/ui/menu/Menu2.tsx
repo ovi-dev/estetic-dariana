@@ -28,7 +28,7 @@ const Navbar = () => {
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
 
   return (
-    <nav className=" fixed top-0 left-0 w-full  bg-white/90 flex-1 justify-between   ">
+    <nav className=" fixed top-0 left-0 w-full  bg-white/90 flex-1 justify-between  ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-[90px] items-center">
           {/* Logo */}
@@ -59,7 +59,7 @@ const Navbar = () => {
               </button>
 
               {isSubMenuOpen && (
-                <div className="absolute left-0 mt-1 w-40 shadow-lg rounded-md bg-slate-200">
+                <div className="absolute left-0 mt-1 w-40 shadow-lg rounded-md bg-white/100">
                   <Link href="/tratamientos/faciales" className={`${linkClasses("/tratamientos/faciales")} block px-4 py-2`}>Facial</Link>
                   <Link href="/tratamientos/corporales" className={`${linkClasses("/tratamientos/corporales")} block px-4 py-2`}>Corporal</Link>
                 </div>

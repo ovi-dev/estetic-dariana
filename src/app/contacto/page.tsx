@@ -49,7 +49,7 @@ const Contacto = () => {
 
   return (
     <section className="flex justify-center items-center min-h-screen margin-top">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-20 mt-4">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-20 mt-12">
         {/* Imagen y detalles */}
         <div className="flex flex-col items-center gap-5">
           <p className="text-xl font-medium tracking-wide mt-20">Dariana Ortiz</p>
