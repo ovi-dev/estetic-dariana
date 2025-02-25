@@ -3,6 +3,8 @@ import React from 'react'
 const InicioSecion = () => {
   return (
     
+<div className='flex justify-center items-center min-h-screen margin-top'>
+
 
 <div className=" mx-auto flex flex-col md:flex-row items-center justify-center gap-20 mt-4  w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
     <form className="space-y-6" action="#">
@@ -29,6 +31,7 @@ const InicioSecion = () => {
             Not registered? <a href="#" className="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
         </div>
     </form>
+</div>
 </div>
 
   )
